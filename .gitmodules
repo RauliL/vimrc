@@ -40,3 +40,6 @@
 [submodule "bundle/closetag.vim"]
 	path = bundle/closetag.vim
 	url = https://github.com/vim-scripts/closetag.vim.git
+[submodule "bundle/nerdtree-tabs"]
+	path = bundle/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
