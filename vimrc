@@ -34,7 +34,7 @@ if has("gui_running")
     set guioptions+=e
     set showtabline=2
   endif
-elif $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+elseif $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
   set t_Co=256
   let g:solarized_termcolors=256
 endif
