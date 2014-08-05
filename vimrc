@@ -2,6 +2,7 @@ execute pathogen#infect()
 colorscheme solarized
 
 set background=dark
+set encoding=utf-8
 set expandtab
 set fileencoding=utf-8
 set hlsearch
@@ -29,7 +30,7 @@ if version >= 700
 endif
 if has("gui_running")
   set guioptions=agrLtcim
-  set guifont=DejaVu_Sans_Mono
+  set guifont="DejaVu Sans Mono 10"
   if version >= 700
     set guioptions+=e
     set showtabline=2
