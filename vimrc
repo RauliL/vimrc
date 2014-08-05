@@ -1,5 +1,4 @@
 execute pathogen#infect()
-colorscheme solarized
 
 set background=dark
 set encoding=utf-8
@@ -29,6 +28,7 @@ if version >= 700
   set cursorline
 endif
 if has("gui_running")
+  colorscheme solarized
   set guioptions=agrLtcim
   set guifont="DejaVu Sans Mono 10"
   if version >= 700
@@ -36,6 +36,7 @@ if has("gui_running")
     set showtabline=2
   endif
 elseif $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+  colorscheme solarized
   set t_Co=256
   let g:solarized_termcolors=256
 endif
