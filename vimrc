@@ -35,6 +35,11 @@ if has("gui_running")
     set guioptions+=e
     set showtabline=2
   endif
+  if has("gui_gtk2")
+    set guifont=DejaVu\ Sans\ Mono\ 10
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
 elseif $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
   colorscheme solarized
   set t_Co=256
