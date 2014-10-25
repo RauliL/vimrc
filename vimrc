@@ -8,6 +8,7 @@ set hlsearch
 set ignorecase
 set lazyredraw
 set magic
+set modeline
 set noerrorbells
 set nostartofline
 set number
