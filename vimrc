@@ -42,9 +42,9 @@ if has("gui_running")
     set guifont=Consolas:h11:cANSI
   endif
 elseif $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
-  colorscheme solarized
   set t_Co=256
   let g:solarized_termcolors=256
+  colorscheme solarized
 endif
 
 noremap <silent> <C-A> I<ESC>
