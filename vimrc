@@ -90,4 +90,6 @@ inoremap <A-7> <C-O>7gt
 inoremap <A-8> <C-O>8gt
 inoremap <A-9> <C-O>9gt
 
+let NERDTreeIgnore = ['\.pyc$']
+
 " vim: set sw=2:
