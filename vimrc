@@ -1,5 +1,7 @@
 execute pathogen#infect()
 
+filetype plugin indent on
+
 set background=dark
 set encoding=utf-8
 set expandtab
