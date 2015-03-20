@@ -53,6 +53,7 @@ noremap <silent> <C-E> A<ESC>
 
 inoremap <silent> <C-A> <C-O>I
 inoremap <silent> <C-E> <C-O>A
+inoremap <expr>   <C-K> BDG_GetDigraph()
 inoremap <silent> <S-Insert> <C-O>"+gP
 
 cnoremap <C-A> <Home>
