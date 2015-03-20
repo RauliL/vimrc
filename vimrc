@@ -55,10 +55,15 @@ inoremap <silent> <C-A> <C-O>I
 inoremap <silent> <C-E> <C-O>A
 inoremap <silent> <S-Insert> <C-O>"+gP
 
-cnoremap <C-a> <Home>
-cnoremap <C-b> <Left>
-cnoremap <C-f> <Right>
-cnoremap <C-d> <Delete>
+cnoremap <C-A> <Home>
+cnoremap <C-B> <Left>
+cnoremap <C-D> <Del>
+cnoremap <C-E> <End>
+cnoremap <C-F> <Right>
+cnoremap <C-N> <Down>
+cnoremap <C-P> <Up>
+cnoremap <Esc><C-B> <S-Left>
+cnoremap <Esc><C-F> <S-Right>
 cnoremap <M-b> <S-Left>
 cnoremap <M-f> <S-Right>
 cnoremap <M-d> <S-Right><Delete>
