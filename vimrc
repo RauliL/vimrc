@@ -14,7 +14,6 @@ set modeline
 set noerrorbells
 set nostartofline
 set number
-set selectmode=mouse,key,cmd
 set shiftwidth=4
 set showmode
 set smartcase
