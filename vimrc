@@ -65,13 +65,6 @@ cnoremap <C-N> <Down>
 cnoremap <C-P> <Up>
 cnoremap <Esc><C-B> <S-Left>
 cnoremap <Esc><C-F> <S-Right>
-cnoremap <M-b> <S-Left>
-cnoremap <M-f> <S-Right>
-cnoremap <M-d> <S-Right><Delete>
-cnoremap <Esc>b <S-Left>
-cnoremap <Esc>f <S-Right>
-cnoremap <Esc>d <S-Right><Delete>
-cnoremap <C-g> <C-c>
 
 vnoremap <C-C> "+y
 vnoremap <C-X> "+x
