@@ -64,3 +64,6 @@
 [submodule "bundle/vim-betterdigraphs"]
 	path = bundle/vim-betterdigraphs
 	url = git@github.com:atweiden/vim-betterdigraphs.git
+[submodule "bundle/html5.vim"]
+	path = bundle/html5.vim
+	url = git@github.com:othree/html5.vim.git
