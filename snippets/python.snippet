@@ -1,5 +1,5 @@
 snippet #!
-	#!/usr/bin/env python
+	#! /usr/bin/env python
 	# -*- coding: utf-8 -*-
 snippet imp
 	import ${0:module}
@@ -9,6 +9,16 @@ snippet from
 snippet if
 	if ${1:condition}:
 		${0}
+snippet ifelse
+	if ${1:condition}:
+		${0}
+	else:
+		${2}
+snippet ifelif
+	if ${1:condition}:
+		${0}
+	elif ${2:condition}:
+		${3}
 snippet while
 	while ${1:condition}:
 		${0}
